@@ -1,0 +1,42 @@
+{
+    "name": "ale the game",
+    "description": "ale the game",
+    "dependencies": {
+        "device": "*",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.6.0",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.3",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "controller": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#v0.1.0",
+        "browser-events": "*",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "stable4.1",
+        "tag": "v4.1.25",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/d4885bd35de1a9300183bf5a3fd1eec816992625",
+        "target": "4.1.27",
+        "pxt": "13.1.23",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "assetPack": true
+}
